@@ -1,0 +1,3 @@
+# applications folder
+
+Initial content
