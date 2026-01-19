@@ -1,6 +1,7 @@
 ﻿![TEOS Sovereign Standing](https://img.shields.io/badge/Standing-Sovereign%20Original%20%E2%80%94%20Elmahrosa%20International-blue?style=for-the-badge)
 [![License: TESL](https://img.shields.io/badge/License-TESL%20%2B%20PolyForm%20Noncommercial-green?style=for-the-badge)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)
 
+“Born in Egypt, built for the world — a universal civic blockchain framework for sovereignty and compliance.”
 # 📍 Repo Standing Statement
 
 This repository is a **sovereign original** under **Elmahrosa International — TEOS Egypt**.  
