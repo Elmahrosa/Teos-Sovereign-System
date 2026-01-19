@@ -1,0 +1,8 @@
+{
+  "name": "TEOS Chat™ Sovereign",
+  "description": "Egypt's first sovereign civil communication layer for digital governance, privacy-preserving civic engagement, and SDG-aligned infrastructure.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
