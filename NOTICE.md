@@ -1,5 +1,5 @@
 ﻿# NOTICE
-
+ 
 This repository is part of the **Elmahrosa Sovereign Stack**, originated and stewarded by  
 **Elmahrosa International — TEOS Egypt**.
 
