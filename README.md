@@ -1,5 +1,133 @@
 # 🏛️ Teos Sovereign System | ELMAHROSA
-**Sovereign Core Execution Framework**
+
+**Sovereign Kernel (OS) for Governed Digital Public Infrastructure**
+
+---
+
+## 📍 Repository Standing
+
+This repository is the **sovereign kernel** (the “operating constitution in code”)
+of the **TEOS / Elmahrosa Sovereign Stack**.
+
+It defines the foundational system model that all TEOS modules must follow:
+- governance-first execution
+- compliance-first constraints
+- identity-first trust
+- auditability-first operations
+
+**Founder & Owner:** Elmahrosa International — TEOS Egypt  
+**Founder Authority:** Ayman Seif
+
+---
+
+## Constitutional Authority (Read First)
+
+All legitimacy and authority derive from:
+
+- **International Civic Blockchain Constitution (Single Source of Truth):**  
+  https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution
+
+Governance stewardship and lifecycle control are anchored in:
+
+- **TEOS-FORGE (Stewardship Anchor):**  
+  https://github.com/Elmahrosa/TEOS-FORGE
+
+License authority is governed by:
+
+- **TEOS Egypt Sovereign License (TESL):**  
+  https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE
+
+---
+
+## Sovereign Doctrine
+
+**Born in Egypt for the World**  
+*Built in Egypt. Engineered for Nations. Scaled for the World.*
+
+Elmahrosa defines governance.  
+Nations retain authority.  
+Technology executes under control.
+
+Web3 is an execution layer — never a replacement for law, institutions, or human authority.
+
+---
+
+## What This Repository Is
+
+**Teos-Sovereign-System** is the kernel layer that defines:
+- sovereign system primitives (actors, roles, authority tiers)
+- governance-to-execution flows (request → review → decision → enforcement)
+- compliance gates (jurisdiction profiles, policy checks)
+- audit requirements (immutable events, evidence export)
+- interoperability boundaries (adapters require approval)
+
+> This repository is **not a product** and **not a DAO**.  
+> It is a sovereign system design intended for national and institutional adoption.
+
+---
+
+## What This Repository Is Not
+
+- Not a permissionless protocol that overrides governance
+- Not a community-run governance substitute
+- Not an open-source platform for unrestricted commercial use
+- Not a standalone SaaS
+
+---
+
+## Core System Model (Kernel View)
+
+### Authority Tiers (Reference)
+- **Tier 0:** Sovereign Root (stewardship continuity)
+- **Tier 1:** Government Authority
+- **Tier 2:** Regulator Authority
+- **Tier 3:** Institution Operator
+- **Tier 4:** System Automation (execution only)
+
+### Required Flow
+Governance decision **must precede** execution:
+
+Constitution → TEOS-FORGE → Governance → Compliance → Execution → Audit
+
+---
+
+## Ecosystem Dependencies
+
+This kernel governs and is consumed by:
+- **TEOS-API-Sovereign** (single governed gateway: APIs + SDK)
+- **TEOS-Governance** (rules of authority and enforcement)
+- **TEOS-Egypt-Compliance-Kit** (regulatory mapping and controls)
+- **TEOS-Identity-Insight-AI** (identity risk intelligence)
+- Payment, wallet, bankchain, and sector modules (execution layer)
+
+All dependent repos must remain compatible with this kernel model.
+
+---
+
+## ⚠️ Usage Notice
+
+Any deployment, fork, or integration that bypasses governance, compliance gates,
+or audit requirements is **non-compliant and unauthorized**.
+
+AI is **decision-support only**.  
+Final authority remains **human and sovereign**.
+
+---
+
+## ⚖️ License
+
+This repository is governed exclusively by the  
+**TEOS Egypt Sovereign License (TESL)**.
+
+Canonical license (single source of truth):  
+https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE
+
+---
+
+**Authority:** Elmahrosa International  
+📧 ayman@teosegypt.com  
+
+🇪🇬 *Kernel born in Egypt — applied globally by nations.*
 
 ---
 
