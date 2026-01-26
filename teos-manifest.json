@@ -1,11 +1,57 @@
-﻿{
-    "status":  "development",
-    "governance":  {
-                       "framework":  "TEOS-FORGE-GLOBAL",
-                       "compliance_standard":  "Universal-DPI"
-                   },
-    "project":  "Teos-Sovereign-System",
-    "version":  "1.0.0",
-    "organization":  "Elmahrosa",
-    "registry":  "https://github.com/Elmahrosa/elmahrosa-core.git"
+{
+  "schema": "teos.manifest.v1",
+  "name": "Teos-Sovereign-System",
+  "repo": "Elmahrosa/Teos-Sovereign-System",
+  "role": "Core",
+  "status": "active",
+  "version": "1.0.0",
+  "authority": {
+    "icbc": "https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution",
+    "tesl_canonical": "https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE"
+  },
+  "stewardship": {
+    "teos_forge": "https://github.com/Elmahrosa/TEOS-FORGE",
+    "kernel": "https://github.com/Elmahrosa/elmahrosa-core"
+  },
+  "interfaces": {
+    "provides": [
+      "sovereign.execution.runtime",
+      "deployment.primitives",
+      "state.grade.services"
+    ],
+    "consumes": [
+      "kernel.primitives",
+      "kernel.registry",
+      "compliance.rules",
+      "governance.decisions"
+    ]
+  },
+  "compliance": {
+    "jurisdictions": ["EG"],
+    "data_sensitivity": "internal",
+    "controls": [
+      "ICBC",
+      "TESL_CANONICAL",
+      "FORGE_STEWARDSHIP",
+      "RUNTIME_HARDENING",
+      "DEPLOYMENT_CHANGE_CONTROL"
+    ]
+  },
+  "audit": {
+    "events": [
+      "deployment.started",
+      "deployment.completed",
+      "deployment.rolled_back",
+      "runtime.violation",
+      "runtime.policy.blocked"
+    ],
+    "evidence_export": {
+      "formats": ["jsonl"],
+      "retention_days": 365
+    }
+  },
+  "contacts": {
+    "owner": "Ayman Seif",
+    "security": "ayman@teosegypt.com"
+  }
 }
