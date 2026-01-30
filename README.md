@@ -27,9 +27,12 @@
 **Teos-Sovereign-System** is the **sovereign execution kernel** of the TEOS ecosystem.
 
 It is the **final, controlled runtime layer** responsible for executing
-**already-authorized and validated actions**.  
-It contains **no governance logic**, **no policy creation**, and
-**no authority interpretation**.
+**already-authorized and validated actions only**.
+
+This repository contains:
+- ❌ No governance logic  
+- ❌ No policy creation  
+- ❌ No authority interpretation  
 
 - **Chain Position:** #4 — Sovereign Execution Kernel  
 - **Authority Source (ICBC):**  
@@ -38,18 +41,15 @@ It contains **no governance logic**, **no policy creation**, and
   https://github.com/Elmahrosa/TEOS-FORGE  
 - **Governance Frameworks:**  
   https://github.com/Elmahrosa/TEOS-Governance  
-- **Execution Validation (Core):**  
+- **Execution Validation:**  
   https://github.com/Elmahrosa/Elmahrosa-Core  
-- **Owner:** Elmahrosa International — TEOS Egypt  
 
-⚠️ **This repository does NOT create, interpret, or validate authority.**  
-It executes **only after** authority has been validated upstream.
+⚠️ **This repository never creates or validates authority.**  
+It executes **only after** upstream constitutional validation.
 
 ---
 
 ## 🔗 Authority & Lineage (Non-Negotiable)
-
-All authority flows **downward only**:
 
 ```text
 Teos International Civic Blockchain Constitution (ICBC)
@@ -65,88 +65,67 @@ Teos International Civic Blockchain Constitution (ICBC)
            External Services
 ````
 
-**Canonical References**
-
-* **ICBC (Supreme Charter):**
-  [https://github.com/Elmahrosa/Teos-International-Civic-Blockchain-Constitution](https://github.com/Elmahrosa/Teos-International-Civic-Blockchain-Constitution)
-* **TESL (Canonical License):**
-  [https://github.com/Elmahrosa/Teos-International-Civic-Blockchain-Constitution/blob/main/LICENSE.md](https://github.com/Elmahrosa/Teos-International-Civic-Blockchain-Constitution/blob/main/LICENSE.md)
-
-> **Non-Negotiable:**
-> The execution kernel may never infer, expand, reinterpret, or override authority.
+> Execution never creates authority.
 
 ---
 
 ## ✅ What This Repository Is
 
-Teos-Sovereign-System **is**:
-
-* ✅ The **authorized runtime executor** for sovereign actions
-* ✅ The final enforcement layer for validated execution requests
-* ✅ A deterministic execution engine with audit hooks
-* ✅ The boundary between governance systems and real-world effects
-* ✅ A controlled, revocable, and auditable runtime
+* Authorized runtime executor for sovereign actions
+* Final enforcement boundary before real-world effects
+* Deterministic execution engine with audit hooks
+* Revocable, auditable, institution-grade runtime
 
 ---
 
 ## ❌ What This Repository Is Not
 
-Teos-Sovereign-System **is not**:
-
-* ❌ A source of sovereignty or governance
-* ❌ A registry or policy store
-* ❌ A DAO, protocol, or voting system
-* ❌ A public or permissionless execution layer
-* ❌ An autonomous or self-authorizing system
+* Governance or policy engine
+* Registry or authority source
+* DAO or protocol
+* Public or permissionless runtime
 
 ---
 
 ## ⚙️ Execution Responsibilities
 
-| Domain          | Responsibility                                  |
-| --------------- | ----------------------------------------------- |
-| **Execution**   | Perform authorized actions exactly as validated |
-| **Enforcement** | Enforce execution constraints and boundaries    |
-| **Revocation**  | Halt or roll back execution on upstream signal  |
-| **Audit Hooks** | Emit immutable execution evidence               |
-| **Containment** | Prevent unauthorized side effects               |
-
-> Execution occurs **only** when explicitly validated by **Elmahrosa-Core**.
+| Domain      | Responsibility                    |
+| ----------- | --------------------------------- |
+| Execution   | Execute validated actions exactly |
+| Enforcement | Enforce execution boundaries      |
+| Revocation  | Immediate halt or rollback        |
+| Audit       | Emit immutable execution evidence |
+| Containment | Prevent side-effects              |
 
 ---
 
 ## ⚡ Quickstart (Execution Only)
 
-1. Receive execution request from **Elmahrosa-Core**
-2. Verify request integrity and validation proof
-3. Execute action within defined constraints
+1. Receive validated request from **Elmahrosa-Core**
+2. Verify integrity + proof
+3. Execute within constraints
 4. Emit audit evidence
-5. Await revocation or continuation signals
+5. Await continuation or revocation
 
-This repository **cannot be run standalone**.
+> This repository **cannot run standalone**.
 
 ---
 
-## ⚖️ License & Authority
+## ⚖️ License
 
-This repository is governed **exclusively** by the
-**TEOS Egypt Sovereign License (TESL)**.
+Governed exclusively by the
+**TEOS Egypt Sovereign License (TESL)**
 
-* **Canonical License:**
-  [https://github.com/Elmahrosa/Teos-International-Civic-Blockchain-Constitution/blob/main/LICENSE.md](https://github.com/Elmahrosa/Teos-International-Civic-Blockchain-Constitution/blob/main/LICENSE.md)
-* **Rights Holder:** Elmahrosa International
+Canonical license (single source of truth):
+[https://github.com/Elmahrosa/Teos-International-Civic-Blockchain-Constitution/blob/main/LICENSE.md](https://github.com/Elmahrosa/Teos-International-Civic-Blockchain-Constitution/blob/main/LICENSE.md)
 
-**Commercial or institutional use requires explicit written approval from Elmahrosa International under TESL.**
-
-> **AI Disclaimer:**
-> AI may assist execution efficiency or monitoring.
-> AI never authorizes, initiates, or modifies execution authority.
+Commercial or institutional use requires **explicit written approval**.
 
 ---
 
 <div align="center">
 
-**Maintained by:** Elmahrosa International
+**Authority:** Elmahrosa International
 📧 [ayman@teosegypt.com](mailto:ayman@teosegypt.com)
 🌐 [https://teosegypt.com](https://teosegypt.com)
 
