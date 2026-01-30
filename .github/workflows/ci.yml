@@ -1,13 +1,33 @@
-name: CI
+name: Teos Sovereign System — CI
 
 on:
   push:
+    branches: [ main ]
   pull_request:
 
 jobs:
-  validate:
+  sovereign-checks:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: echo "CI OK"
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
+      - name: Validate mandatory governance files
+        run: |
+          test -f README.md
+          test -f SECURITY.md
+          test -f LICENSE.md || test -f LICENSE
+          echo "✅ Mandatory files present"
+
+      - name: Markdown lint
+        uses: DavidAnson/markdownlint-cli2-action@v14
+        with:
+          globs: |
+            **/*.md
+
+      - name: Authority boundary check
+        run: |
+          if grep -R "create authority" -n .; then
+            echo "❌ Unauthorized authority language detected"
+            exit 1
+          fi
